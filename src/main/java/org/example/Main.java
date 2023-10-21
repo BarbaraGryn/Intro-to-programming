@@ -8,5 +8,7 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("I am here!");
         System.out.println("Yes, it's me!");
+        System.out.println("I am afraid of Java!");
+        System.out.println("urrrrrrr!");
     }
 }
