@@ -1,8 +1,12 @@
 package org.example;
 
 public class Main {
+    // main is method
+    // java is case sensitive language
+
     public static void main(String[] args) {
         // some useful shortcut
+        //
         // line duplication
         // ctrl + d
         System.out.println("Hello world!");
