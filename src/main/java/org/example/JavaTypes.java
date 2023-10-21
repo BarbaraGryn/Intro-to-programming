@@ -51,5 +51,34 @@ public class JavaTypes {
         System.out.println("Smallest short is: " + Short.MIN_VALUE);
         System.out.println("Smallest short is: " + Short.MAX_VALUE);
 
+        System.out.println();
+
+        System.out.println("double type");
+        double doubleAge = 1.5;
+        System.out.println("Smallest double is: " + Double.MIN_VALUE);
+        System.out.println("Smallest double is: " + Double.MAX_VALUE);
+
+        System.out.println();
+
+        System.out.println("float type");
+        float floatAge = 1.5f;
+        System.out.println("Smallest float is: " + Float.MIN_VALUE);
+        System.out.println("Smallest float is: " + Float.MAX_VALUE);
+
+        System.out.println();
+
+        System.out.println("char type");
+        char singleLetter = 'a'; // nout "aaa"
+        // TODO: explain range
+
+        System.out.println();
+
+        System.out.println("boolean type");
+        // true or false
+        boolean trueValue = true;
+        boolean falseValue = false;
+
+        System.out.println("trueValue: " + trueValue);
+        System.out.println("falseValue: " + falseValue);
     }
 }
