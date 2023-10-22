@@ -7,16 +7,16 @@ public class FreePersonsWithFunctions {
         int johnAge = 5;
         int marthaAge = 19;
 
-        checkAge(100);
-        checkAge(10);
+        isAdult(100);
+        isAdult(10);
 
         System.out.println("Now with our variables");
-        checkAge(age);
-        checkAge(johnAge);
-        checkAge(marthaAge);
+        isAdult(age);
+        isAdult(johnAge);
+        isAdult(marthaAge);
     }
 
-    public static void checkAge(int age) {
+    public static void isAdult(int age) {
         if (age >= 18) {
             System.out.println("If is true");
             System.out.println("Adult");
